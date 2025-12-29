@@ -1,0 +1,42 @@
+{
+  "allure": {
+    "directory": "reports/allure-results",
+    "links": [
+      {
+        "type": "issue",
+        "urlTemplate": "https://github.com/issues/%s"
+      },
+      {
+        "type": "tms",
+        "urlTemplate": "https://github.com/tms/%s"
+      }
+    ]
+  },
+  "plugins": {
+    "junit-xml-plugin": {
+      "enabled": true
+    },
+    "xunit-xml-plugin": {
+      "enabled": true
+    },
+    "trx-plugin": {
+      "enabled": true
+    },
+    "behaviors-plugin": {
+      "enabled": true
+    },
+    "packages-plugin": {
+      "enabled": true
+    },
+    "screen-diff-plugin": {
+      "enabled": true
+    },
+    "xctest-plugin": {
+      "enabled": true
+    },
+    "jira-plugin": {
+      "enabled": false
+    }
+  }
+}
+
